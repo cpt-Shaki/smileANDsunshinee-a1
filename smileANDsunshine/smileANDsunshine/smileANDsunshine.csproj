@@ -64,6 +64,12 @@
     <Compile Include="Delivery Note.Designer.cs">
       <DependentUpon>Delivery Note.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Request successfull.cs">
       <SubType>Form</SubType>
     </Compile>
