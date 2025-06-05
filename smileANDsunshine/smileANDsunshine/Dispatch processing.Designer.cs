@@ -220,30 +220,36 @@ namespace smileANDsunshine
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Window;
+            this.button1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.button1.Location = new System.Drawing.Point(662, 305);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 35);
             this.button1.TabIndex = 17;
             this.button1.Text = "Send";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button2.Location = new System.Drawing.Point(799, 305);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 35);
             this.button2.TabIndex = 18;
             this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button3.Location = new System.Drawing.Point(662, 366);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(245, 50);
             this.button3.TabIndex = 19;
             this.button3.Text = "Generate Delivery Notes";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // menuStrip1
@@ -256,7 +262,7 @@ namespace smileANDsunshine
             this.shipmentTrackerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(935, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(959, 33);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -284,7 +290,8 @@ namespace smileANDsunshine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(935, 503);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(959, 514);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -306,6 +313,7 @@ namespace smileANDsunshine
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Dispatch Processing";
